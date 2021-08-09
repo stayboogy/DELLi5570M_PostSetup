@@ -31,4 +31,4 @@ wmic product where name="DSC/AA Factory Installer" call uninstall
 "C:\ProgramData\Package Cache\{9ae76d49-72b5-402c-b900-0dc71ab8ebef}\DellSupportAssistRemediationServiceInstaller.exe"
 timeout /t 7
 lxrun /install /y
-reboot
+shutdown /r
