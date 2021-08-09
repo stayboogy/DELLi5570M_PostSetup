@@ -32,6 +32,3 @@ wmic product where name="DSC/AA Factory Installer" call uninstall
 timeout /t 7
 lxrun /install /y
 reboot
-exit
-
-
